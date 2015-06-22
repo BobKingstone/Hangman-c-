@@ -94,14 +94,7 @@ int main(int argc, const char * argv[]) {
         }
     }
 
-    if (won)
-    {
-        cout << "congratulations you won";
-    }
-    else
-    {
-        cout << "you lost the word was\n" << word << endl;
-    }
+    won ? cout << "congratulations you won" : cout << "you lost the word was\n" << word << endl;
     
     return 0;
 }
